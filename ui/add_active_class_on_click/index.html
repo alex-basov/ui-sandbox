@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Add class</title>
+
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<ul>
+  <li><a class="nav-link active" href="#">Home</a></li>
+  <li><a class="nav-link" href="#">About</a></li>
+  <li><a class="nav-link" href="#">Services</a></li>
+  <li><a class="nav-link" href="#">Portfolio</a></li>
+  <li><a class="nav-link" href="#">Contact us</a></li>
+</ul>
+
+<!-- jQuery way to do it -->
+<!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+  $(document).on('click', 'ul li', function () {
+      $(this).addClass('active').siblings().removeClass('active');
+
+  })
+</script>-->
+
+<!-- Vanilla JS way to do it -->
+<script>
+ document.addEventListener('click', function() {
+
+     if (!event.target.classList.contains('nav-link')) return;
+
+     event.target.classList.add('active');
+
+     let links = document.querySelectorAll('.nav-link');
+
+     for (let i = 0; i < links.length; i++) {
+         if (links[i] === event.target) continue;
+
+         links[i].classList.remove('active');
+     }
+ });
+</script>
+
+</body>
+</html>
