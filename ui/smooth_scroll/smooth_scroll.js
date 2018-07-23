@@ -1,7 +1,7 @@
-var marginY = 0;
-var destination = 0;
-var speed = 15;
-var scroller = null;
+let marginY = 0;
+let destination = 0;
+let speed = 15;
+let scroller = null;
 
 function initScroll(elementId){
 	destination = document.getElementById(elementId).offsetTop;
