@@ -1,0 +1,22 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 50px;
+    background: #fff;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+    background: lightblue;
+}
+
+.flex-item {
+    background: cornflowerblue;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
