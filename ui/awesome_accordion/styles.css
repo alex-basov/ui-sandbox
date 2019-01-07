@@ -1,0 +1,81 @@
+.content-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu {
+  width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.item {
+  border-top: 1px solid #1D8C79;
+  overflow: hidden;
+}
+
+.btn {
+  display: block;
+  padding: 16px 20px;
+  background: #31AA96;
+  color: #ffffff;
+  position: relative;
+  text-decoration: none;
+}
+
+.btn:before {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #31aa96;
+  left: 20px;
+  bottom: -7px;
+  transform: rotate(45deg);
+}
+
+.btn svg {
+  margin-right: 10px;
+}
+
+.sub-menu {
+  background: #274944;
+  overflow: hidden;
+  transition: max-height 0.3s;
+  max-height: 0;
+}
+
+.sub-menu a {
+  display: block;
+  padding: 16px 26px;
+  margin: 4px 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  position: relative;
+}
+
+.sub-menu a:before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #31aa96;
+  left: 0;
+  top: 0;
+  transition: 0.25s;
+  opacity: 0;
+}
+
+.sub-menu a:hover:before {
+  opacity: 1;
+}
+
+/* more info about :target
+-  https://developer.mozilla.org/en-US/docs/Web/CSS/:target
+*/
+.item:target .sub-menu {
+  max-height: 12em;
+}
