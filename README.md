@@ -1,9 +1,10 @@
 # UI sandbox
 
 THe place to play around with UI elements code
+[see it live](https://alex-basov.github.io/ui-sandbox/)
 
-* [Smooth scroll](ui/smooth_scroll/)
-* [Page scroll indicator](ui/page_scroll_indicator/)
-* [Display sticky + enter-view](ui/sticky_with_enter_view/)
-* [Add active class on click](ui/add_active_class_on_click/)
-* [CSS image masking hover bg transition effect](effects/css_image_masking/)
+* CSS Image Masking
+* Adding Active Class on Click
+* Page Scrolling Indicator
+* Sticky With Enter View
+* Awesome Accordion Menu
