@@ -34,7 +34,7 @@ p {
 }
 
 img {
-  width: 200px;
+  max-width: 200px;
   position: sticky;
   position: -webkit-sticky;
   top: 20px;
