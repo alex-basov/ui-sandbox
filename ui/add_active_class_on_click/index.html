@@ -8,17 +8,25 @@
   <title>Add class</title>
 
   <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/global_styles.css">
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-<ul>
-  <li><a class="nav-link active" href="#">Home</a></li>
-  <li><a class="nav-link" href="#">About</a></li>
-  <li><a class="nav-link" href="#">Services</a></li>
-  <li><a class="nav-link" href="#">Portfolio</a></li>
-  <li><a class="nav-link" href="#">Contact us</a></li>
-</ul>
+<div class="content-container">
+  <a href="/index.html" class="btn back-btn">Back to Home</a>
+  <h1>Switching active class on click</h1>
+  <h2>using Vanilla JS</h2>
+  <hr>
+
+  <ul>
+    <li><a class="nav-link active" href="#">Home</a></li>
+    <li><a class="nav-link" href="#">About</a></li>
+    <li><a class="nav-link" href="#">Services</a></li>
+    <li><a class="nav-link" href="#">Portfolio</a></li>
+    <li><a class="nav-link" href="#">Contact us</a></li>
+  </ul>
+</div>
+
 
 <!-- jQuery way to do it -->
 <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -31,7 +39,7 @@
 
 <!-- Vanilla JS way to do it -->
 <script>
- document.addEventListener('click', function() {
+ document.addEventListener('click', () => {
 
      if (!event.target.classList.contains('nav-link')) return;
 

@@ -4,6 +4,9 @@
 /* --------
   Basic
 -------- */
+html, body {
+  height: 100%;
+}
 
 @media screen and (max-width: 480px) {
   html, body {
@@ -22,6 +25,7 @@ html {
 .content-container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 /* --------
@@ -123,7 +127,7 @@ h6 {
 
   h2 {
     font-size: 1.75rem;
-    line-height: 11.5rem;
+    line-height: 1.75rem;
   }
 
   h3 {
@@ -132,6 +136,12 @@ h6 {
 }
 
 /* --------
+  Main
+-------- */
+main {
+  min-height: calc(100vh - 109px);
+}
+/* --------
   Footer
 -------- */
 
@@ -139,6 +149,45 @@ footer {
   margin-top: 1rem;
   background-color: #111;
   color: rgba(255, 255, 255, 0.5);
-  padding: 2rem 0 2rem 0;
+  padding: 1rem 0 1rem 0;
 }
 
+/* --------
+  Buttons
+-------- */
+
+.btn {
+  display: inline-block;
+  padding: 16px 44px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.back-btn {
+  margin: 20px 0;
+  border: 1px solid #f2eff0;
+  color: #f2eff0;
+  background: #9D9397;
+  transition: filter 250ms ease;
+}
+
+.back-btn:hover {
+  filter:brightness(115%);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #777;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* --------
+  Lists
+-------- */
+
+.list-subtitle {
+  margin: 24px 0 6px;
+}
