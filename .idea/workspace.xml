@@ -2,142 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="500443fe-25f9-4dd2-8901-52cf174d8c61" name="Default" comment="improve list of elements, add back to home button with explanations">
+      <change afterPath="$PROJECT_DIR$/cards/flashcards/image/bg-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/flashcards/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/flashcards/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/global_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global_styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/effects/css_image_masking/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/effects/css_image_masking/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/effects/css_image_masking/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/effects/css_image_masking/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/global_styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effects/css_image_masking/img/bg-air-atmosphere.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effects/css_image_masking/img/bg-constellations.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effects/css_image_masking/img/twitter-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effects/css_image_masking/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effects/css_image_masking/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/add_active_class_on_click/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/add_active_class_on_click/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/add_active_class_on_click/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/add_active_class_on_click/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/awesome_accordion/accordion_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/awesome_accordion/accordion_menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/awesome_accordion/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/awesome_accordion/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/page_scroll_indicator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/page_scroll_indicator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/page_scroll_indicator/jquery/page_scroll_indicator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/page_scroll_indicator/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/page_scroll_indicator/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/rotating_side_menu/rotating_side_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/rotating_side_menu/rotating_side_menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/rotating_side_menu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/rotating_side_menu/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/sticky_with_enter_view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/sticky_with_enter_view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/sticky_with_enter_view/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/sticky_with_enter_view/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/add_active_class_on_click/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/add_active_class_on_click/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/awesome_accordion/accordion_menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/awesome_accordion/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/page_scroll_indicator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/page_scroll_indicator/page_scroll_indicator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/page_scroll_indicator/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/rotating_side_menu/rotating_side_menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/rotating_side_menu/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/sticky_with_enter_view/img/if_cupcake.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/sticky_with_enter_view/img/if_fries.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/sticky_with_enter_view/img/if_ice-cream.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/sticky_with_enter_view/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/sticky_with_enter_view/js/enter-view.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/sticky_with_enter_view/main.css" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="271">
-                <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/add_active_class_on_click/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/awesome_accordion/accordion_menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/sticky_with_enter_view/js/enter-view.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret column="623" selection-start-column="623" selection-end-column="623" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/effects/css_image_masking/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/sticky_with_enter_view/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/sticky_with_enter_view/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/awesome_accordion/styles.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/page_scroll_indicator/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="928">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-              <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/page_scroll_indicator/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -174,6 +72,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -219,6 +125,7 @@
     <option name="width" value="1050" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectId" id="1o9cl9mnqlPrabS1U0aeXeaoqBM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -305,34 +212,32 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cards/flashcards" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sandbox\ui-sandbox\cards\flashcards" />
+      <recent name="E:\sandbox\ui-sandbox\cards\flashcards\image" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\sandbox\ui-sandbox" />
       <recent name="E:\sandbox\ui-sandbox\ui\smooth_scroll" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.simple_animations.html">
     <configuration name="simple_animations.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ui-sandbox/animations/simple_animations.html">
@@ -352,6 +257,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -376,6 +282,7 @@
       <workItem from="1546793119769" duration="5450000" />
       <workItem from="1546885775933" duration="6949000" />
       <workItem from="1546982943354" duration="9759000" />
+      <workItem from="1612702397301" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="add CSS image masking hover bg transition effect">
       <created>1532348422934</created>
@@ -477,7 +384,18 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add CSS image masking hover bg transition effect" />

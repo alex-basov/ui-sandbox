@@ -1,56 +1,28 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>UI Sandbox</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI Elements Sandbox</title>
 
-  <link rel="stylesheet" href="css/global_styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
 </head>
 <body>
-<header>
+<div class="content-container">
+    <div class="container mt-5">
+        <h1 class="mb-4">UI Sandbox Contents</h1>
+        <p>Playing with UI elements and effects</p>
 
-</header>
-<main>
-  <div class="content-container">
-    <h1>UI Sandbox</h1>
-    <h2>Playing with UI elements and effects</h2>
-    <ul>
-      <li>
-        <h3 class="list-subtitle">Menus</h3>
-        <ul>
-          <li><a href="ui/add_active_class_on_click/index.html">Adding Active Class on Click</a></li>
-          <li><a href="ui/awesome_accordion/accordion_menu.html">Awesome Accordion Menu</a></li>
-          <li><a href="ui/rotating_side_menu/rotating_side_menu.html">Rotating Side Menu</a></li>
-        </ul>
-      </li>
-      <li>
-        <h3 class="list-subtitle">CSS Effects</h3>
-        <ul>
-          <li><a href="effects/css_image_masking/index.html">CSS Image Masking</a></li>
-        </ul>
-      </li>
-      <li>
-        <h3 class="list-subtitle">Indicators</h3>
-        <ul>
-          <li><a href="ui/page_scroll_indicator/index.html">Page Scrolling Indicator</a></li>
-          <li><a href="ui/sticky_with_enter_view/index.html">Sticky With Enter View</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</main>
-<footer>
-  <div class="content-container">
-    &copy; {{ year }}
-  </div>
-</footer>
-<script> // replace {{ year }} with current year
-document.body.innerHTML = document.body.innerHTML.replace(/{{ year }}/gmi, function () {
-    return new Date().getFullYear()
-})
-</script>
+        <h2>Cards</h2>
+
+        <div class="list-group mb-3">
+            <a class="list-group-item list-group-item-action" href="cards/flashcards/index.html">FlashCards</a>
+        </div>
+    </div>
+</div>
 </body>
+
 </html>
