@@ -6,7 +6,7 @@ ehthumbs.db
 Thumbs.db
 
 # ignore Editor files
-.idea/
+.idea/*
 
 # ignore log files and databases
 *.log
